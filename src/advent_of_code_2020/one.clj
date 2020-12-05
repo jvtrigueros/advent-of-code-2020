@@ -30,7 +30,7 @@
   "Given a list of integers, find three numbers that add up to `target-sum` then return their product."
   [target-sum input]
   (let [sorted-input (sort input)]
-    (map #(two-sum-product))))
+    #_(map #(two-sum-product))))
 
 
 (comment
